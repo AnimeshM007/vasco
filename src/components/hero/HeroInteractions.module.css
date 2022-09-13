@@ -1,0 +1,37 @@
+.headline {
+  /* width: 566px; */
+  /* height: 116px; */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 4.5rem;
+  /* or 116% */
+
+  text-align: center;
+  letter-spacing: -0.5px;
+
+  color: #ffffff;
+}
+
+.yellow {
+  color: #ffc72f;
+}
+
+.subhead {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+
+.search {
+    margin: 2rem 0;
+  width: 432px;
+  height: 51.4px;
+  background-color: #ffffff;
+}

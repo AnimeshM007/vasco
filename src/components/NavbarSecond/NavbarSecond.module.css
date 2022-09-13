@@ -1,0 +1,35 @@
+.navbarSecond {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.navButtons {
+  display: flex;
+  padding: 0px;
+  justify-content: space-between;
+}
+
+.login {
+  margin: 0rem 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  background: #ffc72f;
+  border-radius: 3rem;
+  border: 1px solid #ffffff;
+  width: 11.5rem;
+  height: 3.8rem;
+}
+
+.createAccount {
+  margin: 0rem 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  background: #fff;
+  border-radius: 3rem;
+  border: 1px solid #ffc72f;
+  width: 19.8rem;
+  height: 3.8rem;
+}

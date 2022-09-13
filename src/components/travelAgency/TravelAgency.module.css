@@ -1,0 +1,75 @@
+/* .gridItem1,
+.gridItem2,
+.gridItem3,
+.gridItem4,
+.gridItem5 {
+  background: rgb(23, 73, 211);
+} */
+.gridContainer {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 1rem 20rem;
+  /* grid-auto-rows: minmax(150px. auto); */
+}
+
+.gridItem1 {
+  grid-column: span 2;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 48px;
+  color: #000000;
+}
+
+.gridItem2 {
+  grid-column: span 2;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 3rem;
+  color: #ffc72f;
+}
+
+.gridItem3 {
+  grid-row: span 2;
+  width: 38rem;
+  height: 47.2rem;
+  background: url(http://127.0.0.1:8887/src/images/half-length-portrait-arabian-saudi-businessman-dark-blue-studio-background-young-male-model-standing-smiling-concept-business-finance-facial-expression-human-emotions.jpg);
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position-x: 40%;
+  background-position-y: 0%;
+  border-radius: 20px;
+  margin-top: 3rem;
+}
+
+.gridItem4 {
+  background: rgba(255, 199, 47, 0.24);
+  border-radius: 2rem;
+  padding: 1rem 1rem;
+  justify-content: center;
+  align-content: center;
+  background: rgba(255, 199, 47, 0.24);
+  margin-top: 3rem;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3.4rem;
+  align-self: start;
+}
+
+.gridItem5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+ul{
+    list-style: none;
+}
