@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vasco/static/css/main.4ba02887.css",
+    "main.js": "/vasco/static/js/main.de33d5c0.js",
+    "index.html": "/vasco/index.html",
+    "main.4ba02887.css.map": "/vasco/static/css/main.4ba02887.css.map",
+    "main.de33d5c0.js.map": "/vasco/static/js/main.de33d5c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ba02887.css",
+    "static/js/main.de33d5c0.js"
+  ]
+}
