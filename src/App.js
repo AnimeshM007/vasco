@@ -4,6 +4,8 @@ import "./App.css";
 import NavbarSecond from "./components/NavbarSecond/NavbarSecond";
 import Hero from "./components/hero/Hero";
 import TravelAgency from "./components/travelAgency/TravelAgency";
+import ExploringTheWorld from "./components/exploringTheWorld/exploringTheWorld";
+import HowItWorks from "./components/howItWorks/howItWorks";
 
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
       <div className="container">
         <Hero />
         <TravelAgency />
+        <ExploringTheWorld />
+        <HowItWorks />
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ function NavbarSecond(){
     return (
         <div className={classes.navbarSecond}>
             <div className={classes.logo}>
-            <img className="logo" src="http://127.0.0.1:8887/src/images/nav_logo.png" alt="logo"></img>
+            <img className="logo" src="https://github.com/AnimeshM007/vasco/blob/master/public/images/nav_logo.png?raw=true" alt="logo"></img>
             </div>
             <div className={classes.navButtons}>
                 <button className={classes.login}>Login</button>

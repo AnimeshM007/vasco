@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 36px 50px;
+  gap: 40px;
+  width: auto;
+  height: auto;
+  background: #f4f4f4;
+  border-radius: 40px;
+}
+
+.text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 32px;
+  /* or 120% */
+  width: 54.7rem;
+  height: 9.8rem;
+}
+
+.number {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 181px;
+  line-height: 0px;
+  /* or 0% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.5px;
+
+  color: #000000;
+
+  opacity: 0.1;
+}

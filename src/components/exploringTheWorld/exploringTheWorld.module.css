@@ -1,0 +1,53 @@
+.wrapper {
+  display: flex;
+  background: url(https://github.com/AnimeshM007/vasco/blob/master/public/images/clounds.jpg?raw=true);
+  width: 100%;
+  height: 50rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0rem -30rem;
+  outline: 2px solid #000;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  flex: 1;
+}
+
+.darkGradient {
+  background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 49.92%);
+  width: 100%;
+  height: 50rem;
+}
+
+.subhead,
+.heading {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.subhead {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 98px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+
+.heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 98px;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+}
+
+.yellow {
+  color: #ffc700;
+  padding-right: 2.5rem;
+}
