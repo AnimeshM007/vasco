@@ -8,15 +8,17 @@ function WhyUs() {
         <h1 className={classes.heading}>Why you need Vasco?</h1>
       </div>
       <div className={classes.points}>
-        <div className={classes.verticalRow1}>
-          <Point />
-          <Point />
+        <div className={classes.horizontalRow}>
+          <div className={classes.verticalRow}>
+            <Point />
+            <Point />
+          </div>
+          <div className={classes.verticalRow}>
+            <Point />
+            <Point />
+          </div>
         </div>
-        <div className={classes.verticalRow2}>
-          <Point />
-          <Point />
-        </div>
-        <div className={classes.verticalRow3}>
+        <div className={classes.verticalRow}>
           <Point />
         </div>
       </div>
