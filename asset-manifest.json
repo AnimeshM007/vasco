@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/vasco/static/css/main.2824655e.css",
-    "main.js": "/vasco/static/js/main.7c6f0ebc.js",
+    "main.css": "/vasco/static/css/main.1b47bc5c.css",
+    "main.js": "/vasco/static/js/main.63d30994.js",
     "index.html": "/vasco/index.html",
-    "main.2824655e.css.map": "/vasco/static/css/main.2824655e.css.map",
-    "main.7c6f0ebc.js.map": "/vasco/static/js/main.7c6f0ebc.js.map"
+    "main.1b47bc5c.css.map": "/vasco/static/css/main.1b47bc5c.css.map",
+    "main.63d30994.js.map": "/vasco/static/js/main.63d30994.js.map"
   },
   "entrypoints": [
-    "static/css/main.2824655e.css",
-    "static/js/main.7c6f0ebc.js"
+    "static/css/main.1b47bc5c.css",
+    "static/js/main.63d30994.js"
   ]
 }
