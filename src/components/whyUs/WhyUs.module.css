@@ -2,7 +2,7 @@
   position: relative;
 
   width: 100%;
-  height: 89.9rem;
+  height: 70rem;
   background: #ffc72f;
 }
 
@@ -54,12 +54,13 @@
   gap: 2rem;
 }
 .points {
-  margin-top: 8rem;
+  margin-top: 6rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0px;
   gap: 2rem;
+  z-index: 2;
 }
 
 .button {
@@ -71,12 +72,26 @@
 }
 
 .image1 {
-  width: 602.3px;
-  height: 497.11px;
-  left: calc(50% - 602.3px / 2 + 50.31px);
-  top: 526.72px;
-
-  background: url(https://github.com/AnimeshM007/vasco/blob/b788cb8054370c544f6254bf0b514f09d7b1c6d4/public/images/suitcase-floating.png?raw=true);
-  transform: matrix(-0.82, -0.57, -0.57, 0.82, 0, 0);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  left: 2%;
+  top: 20rem;
+  z-index: 1;
+  background: url(https://github.com/AnimeshM007/vasco/blob/ccdef1c217e5e6981944ff62c3b7991b621eff56/public/images/suitcase-floating-nobg.png?raw=true);
   background-repeat: no-repeat;
 }
+
+.image2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    left: 65%;
+    top: 30rem;
+    z-index: 1;
+    background: url(https://github.com/AnimeshM007/vasco/blob/ccdef1c217e5e6981944ff62c3b7991b621eff56/public/images/bag-floating-nobg.png?raw=true);
+    background-repeat: no-repeat;
+  }
+  
